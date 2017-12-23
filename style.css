@@ -264,6 +264,13 @@ footer .container {
 	background-color: rgba(0, 0 , 0 , 0.3);
 }
 
+/* copy right */
+.footC {
+	font-size: 12px;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
 @media (min-width: 768px) {
 	.conA h1 {
 		font-size: 115px;
@@ -330,5 +337,25 @@ footer .container {
 
 	.footB div:not(:first-child) {
 		margin-left: 40px;
+	}
+
+	footer .container {
+		display: flex;
+		flex-wrap:wrap;
+		max-width: var(--large-width);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footA {
+		flex:0 0 30%;
+	}
+
+	.footB {
+		flex:0 0 70%;
+	}
+
+	.footC {
+		flex:0 0 100%;
 	}
 }
