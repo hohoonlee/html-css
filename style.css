@@ -271,6 +271,40 @@ footer .container {
 	font-family: 'Pacifico', cursive;
 }
 
+/* sns */
+.footD {
+	margin-top: 20px;
+}
+
+.footD ul {
+	display: flex;
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+/* 
+.footD li {
+	display: inline;
+} */
+
+.footD a {
+	display: inline-block;
+	margin-right: 8px;
+	padding: 0;
+	color: inherit;
+	font-size: 16px;
+	text-decoration: none;
+	border: solid 1px currentColor;
+	width: 2em;
+	line-height: 2em;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.footD a:hover {
+	background: rgba(0,0,0,0.3);
+}
+
 @media (min-width: 768px) {
 	.conA h1 {
 		font-size: 115px;
