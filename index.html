@@ -8,12 +8,40 @@
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link rel="stylesheet" href="style.css?v=2">
 	<script src="https://use.fontawesome.com/af49ec98f9.js"></script>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$(function() {
+			$('.headC').on('click', function() {
+				$('.headB').slideToggle();
+			})
+		});
+		
+	</script>
 </head>
 <body>
+	<header>
+		<div class="container">
+			<div class="container-small">
+				<a href="index.html" class="headA">ABCD</a>
+				<button type="button" class="headC">
+					<span class="fa fa-bars" title="MENU"></span>
+				</button>
+			</div>
+			<nav class="headB">
+				<ul>
+					<li><a href="index.html">TOP</a></li>
+					<li><a href="contents.html">CONTENT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contract.html">CONTRACT(opt+shifht+arrow)</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
 	<section class="conA">
 		<div class="container">
 			<img src="img/logo.svg" alt="">
-			<h1>LOGO</h1>
+			<h1>siva6</h1>
 			<p>맛있는 페이지</p>
 			<a href="#">라이프로그 사용하기</a>
 		</div>
